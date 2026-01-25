@@ -2,7 +2,7 @@
 
 A machine learning-powered web application that predicts diseases based on symptoms using Streamlit and scikit-learn.
 
-## 🎯 Accuracy: 100.00%**
+## 🎯 Accuracy
 
 The system achieves perfect accuracy on the test dataset with 4,920 medical cases across 41 different diseases.
 
@@ -72,7 +72,7 @@ Navigate to `http://localhost:8501`
 - Classes: 41 diseases
 - Preprocessing: MultiLabelBinarizer for symptom encoding
 
-## 🏗️ **Project Structure**
+## 🏗️ Project Structure
 
 ```
 MDPS/
@@ -92,18 +92,18 @@ MDPS/
 └── README.md
 ```
 
-## 🔬 **How It Works**
+## 🔬 How It Works
 
-1. **Data Preprocessing**: Symptoms are encoded using MultiLabelBinarizer
-2. **Model Training**: Random Forest classifier learns symptom-disease patterns
-3. **Prediction**: User selects symptoms → Model predicts top 3 diseases
-4. **Results**: Shows disease names, probabilities, descriptions, and precautions
+1. Data Preprocessing: Symptoms are encoded using MultiLabelBinarizer
+2. Model Training: Random Forest classifier learns symptom-disease patterns
+3. Prediction: User selects symptoms → Model predicts top 3 diseases
+4. Results: Shows disease names, probabilities, descriptions, and precautions
 
-## 📈 **Accuracy Testing**
+## 📈 Accuracy Testing
 
 The model was tested using:
-- **Cross-validation**: Tested on entire dataset (4,920 samples)
-- **Metrics**: accuracy_score, classification_report from sklearn
-- **Result**: 100% accuracy with perfect predictions
+- Cross-validation: Tested on entire dataset (4,920 samples)
+- Metrics: accuracy_score, classification_report from sklearn
+- Result: 100% accuracy with perfect predictions
 
 
